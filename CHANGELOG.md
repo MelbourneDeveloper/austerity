@@ -4,3 +4,5 @@
 - Fix folder structure
 ## 0.0.3-beta
 - Include the actual file
+## 0.0.4-beta
+- Doco
