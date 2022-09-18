@@ -1,4 +1,4 @@
-///These are some red squiggly lines that will enjoy
+///These are some of red squiggly lines that you will enjoy
 void main() {
   var awesome = 'test';
 
