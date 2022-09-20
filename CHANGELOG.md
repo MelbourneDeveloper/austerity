@@ -6,3 +6,5 @@
 - Include the actual file
 ## 0.0.4-beta
 - Doco
+## 0.0.5-beta
+- Fix it and dial a few things back
