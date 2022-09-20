@@ -4,4 +4,11 @@ void main() {
 
   if (true) {
   } else {}
+
+  SomeDeprecatedClass deprecatedClass = SomeDeprecatedClass();
 }
+
+@deprecated
+class SomeDeprecatedClass {}
+
+

@@ -6,6 +6,9 @@ This package attempts to use every Dart and Flutter code rule available that doe
 
 Use this package to get the strongest warnings about code violations, and use `analysis_options.yaml` to dial it back when you need to.
 
+This is what you will see when you do naughty things
+![errors](https://github.com/MelbourneDeveloper/austerity/blob/main/doc/images/errors.png) 
+
 ## Use the package
 
 - Install the package in the `pubspec.yaml`
