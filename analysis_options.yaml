@@ -127,7 +127,8 @@ linter:
     - prefer_const_literals_to_create_immutables
     - prefer_constructors_over_static_methods
     - prefer_contains
-    -  #prefer_double_quotes
+    # Most people prefer single quotes and this contradicts that
+    # prefer_double_quotes
     - prefer_equal_for_default_values
     - prefer_expression_function_bodies
     - prefer_final_fields
@@ -227,12 +228,9 @@ analyzer:
   language:
     strict-inference: true
     strict-raw-types: true
-  plugins:
-    - dart_code_metrics
   strong-mode:
     implicit-casts: false
     implicit-dynamic: false
-  exclude:
   errors:
     always_declare_return_types: error
     always_put_control_body_on_new_line: error
@@ -300,7 +298,8 @@ analyzer:
     deprecated_consistency: error
     deprecated_member_use: error
     deprecated_member_use_from_same_package: error
-    diagnostic_describe_all_properties: error
+    # Don't force descriptions for debug properties
+    diagnostic_describe_all_properties: warning
     directives_ordering: error
     do_not_use_environment: error
     duplicate_import: error
@@ -391,7 +390,9 @@ analyzer:
     prefer_typing_uninitialized_variables: error
     prefer_void_to_null: error
     provide_deprecation_message: error
-    public_member_api_docs: error
+    # Don't force documentation for all members
+    # You should turn this to error you are building a reusable component
+    public_member_api_docs: warning
     recursive_getters: error
     require_trailing_commas: error
     sdk_version_constructor_tearoffs: error
