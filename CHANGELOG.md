@@ -13,5 +13,5 @@
 ## 0.0.7-beta
 - Remove wrong lint
 
-## 0.0.7-beta
+## 0.0.8-beta
 - Fix
