@@ -9,6 +9,12 @@ void main() {
 }
 
 @deprecated
-class SomeDeprecatedClass {}
+class SomeDeprecatedClass {
+  //This should be an arrow function but there is no error
+  //prefer_expression_function_bodies
+  bool test() {
+    return true;
+  }
 
-
+  bool test2(final String test) => true;
+}

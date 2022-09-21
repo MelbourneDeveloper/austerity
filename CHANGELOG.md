@@ -8,3 +8,5 @@
 - Doco
 ## 0.0.5-beta
 - Fix it and dial a few things back
+## 0.0.6-beta
+- Some fixes and new lints
