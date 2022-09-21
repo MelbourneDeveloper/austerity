@@ -1,6 +1,6 @@
 name: austerity
 description: Dart and Flutter static code analysis, but not for the faint hearted. This code tries to turn all violations in to red squiggly lines
-version: 0.0.7-beta
+version: 0.0.8-beta
 repository: https://github.com/MelbourneDeveloper/austerity
 
 environment:

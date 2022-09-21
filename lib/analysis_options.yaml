@@ -116,7 +116,7 @@ linter:
     - prefer_const_literals_to_create_immutables
     - prefer_constructors_over_static_methods
     - prefer_contains
-    -  #prefer_double_quotes
+    # - prefer_double_quotes
     - prefer_equal_for_default_values
     - prefer_expression_function_bodies
     - prefer_final_fields
@@ -245,6 +245,7 @@ analyzer:
     avoid_equals_and_hash_code_on_mutable_classes: error
     avoid_escaping_inner_quotes: error
     avoid_field_initializers_in_const_classes: error
+    avoid_final_parameters: error
     avoid_function_literals_in_foreach_calls: error
     avoid_implementing_value_types: error
     avoid_init_to_null: error
