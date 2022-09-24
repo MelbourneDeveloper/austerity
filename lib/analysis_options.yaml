@@ -24,7 +24,8 @@ linter:
     - avoid_implementing_value_types
     - avoid_init_to_null
     - avoid_js_rounded_ints
-    - avoid_multiple_declarations_per_line
+    # There is no good reason not to put multiple declarations on a single line.
+    # - avoid_multiple_declarations_per_line
     - avoid_null_checks_in_equality_operators
     - avoid_positional_boolean_parameters
     - avoid_print
@@ -61,7 +62,12 @@ linter:
     - constant_identifier_names
     - control_flow_in_finally
     - curly_braces_in_flow_control_structures
-    - depend_on_referenced_packages
+    # This is an analysis error, but not a linter rule
+    #- dead_code
+    # This forces you to depend on a package even though the package may already be available via other package dependencies
+    # This could increase the risk of depending on multiple version of the same package and means you will likely end up with the
+    # reference in multiple pubscpec.yaml files.
+    # - depend_on_referenced_packages
     - deprecated_consistency
     - diagnostic_describe_all_properties
     - directives_ordering
@@ -116,6 +122,7 @@ linter:
     - prefer_const_literals_to_create_immutables
     - prefer_constructors_over_static_methods
     - prefer_contains
+    # Most people prefer single quotes
     # - prefer_double_quotes
     - prefer_equal_for_default_values
     - prefer_expression_function_bodies
@@ -250,7 +257,8 @@ analyzer:
     avoid_implementing_value_types: error
     avoid_init_to_null: error
     avoid_js_rounded_ints: error
-    avoid_multiple_declarations_per_line: error
+    # There is no good reason not to put multiple declarations on a single line.
+    avoid_multiple_declarations_per_line: ignore
     avoid_null_checks_in_equality_operators: error
     avoid_positional_boolean_parameters: warning
     avoid_print: error
@@ -351,7 +359,8 @@ analyzer:
     prefer_const_literals_to_create_immutables: error
     prefer_constructors_over_static_methods: error
     prefer_contains: error
-    #prefer_double_quotes: ignore
+    # Most people prefer single quotes
+    # prefer_double_quotes: ignore
     prefer_equal_for_default_values: error
     prefer_expression_function_bodies: error
     prefer_final_fields: error

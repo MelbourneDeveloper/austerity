@@ -15,3 +15,5 @@
 
 ## 0.0.8-beta
 - Fix
+## 0.0.9-beta
+- Drop a couple of lints
