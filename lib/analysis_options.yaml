@@ -300,6 +300,7 @@ analyzer:
     deprecated_member_use_from_same_package: error
     diagnostic_describe_all_properties: error
     directives_ordering: error
+    discarded_futures: error
     do_not_use_environment: error
     duplicate_import: error
     empty_catches: error
@@ -449,6 +450,7 @@ analyzer:
     use_rethrow_when_possible: error
     use_setters_to_change_properties: error
     use_string_buffers: error
+    use_super_parameters: error
     use_test_throws_matchers: error
     use_to_and_as_if_applicable: error
     valid_regexps: error
