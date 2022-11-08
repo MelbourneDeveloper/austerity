@@ -10,6 +10,8 @@ analyzer:
     implicit-casts: false
     implicit-dynamic: false
   exclude:
+    - "**/*.g.dart"
+    - "bin/cache/**"
   errors:
     always_declare_return_types: error
     always_put_control_body_on_new_line: error
@@ -183,7 +185,9 @@ analyzer:
     prefer_typing_uninitialized_variables: error
     prefer_void_to_null: error
     provide_deprecation_message: error
-    public_member_api_docs: error
+    # All public SDKs should document all public members, however...
+    # Arguably, apps may not require this. The warning is a nice reminder.
+    public_member_api_docs: warning
     recursive_getters: error
     require_trailing_commas: error
     secure_pubspec_urls: error
