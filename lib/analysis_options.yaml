@@ -14,7 +14,8 @@ analyzer:
     - "bin/cache/**"
   errors:
     always_declare_return_types: error
-    always_put_control_body_on_new_line: error
+    # This is a readability vs succintness tradeoff. I prefer succintness.
+    always_put_control_body_on_new_line: ignore
     always_put_required_named_parameters_first: error
     always_require_non_null_named_parameters: error
     # We shouldn't specify types explicitly. However, this rule also
