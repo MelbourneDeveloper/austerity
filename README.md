@@ -6,6 +6,8 @@ This package attempts to use every Dart and Flutter code rule available that doe
 This is what you will see when you do naughty things
 ![errors](https://github.com/MelbourneDeveloper/austerity/blob/main/doc/images/errors.png) 
 
+This library is pretty stable now. This will probably be the last beta version. 
+
 ## Use the package
 - Install the package in the `pubspec.yaml`
 - Add this line at the top of your `analysis_options.yaml`
