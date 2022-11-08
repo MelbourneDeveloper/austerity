@@ -15,7 +15,7 @@ include: package:austerity/analysis_options.yaml
 ```
 
 ## Configure Rules
-You can easily turn the rules off or change the severity to warning. I dialed down a couple of rules due to personal preference, but you can see all of these in the comments and adjust these for yourself. You have to understand that there are two types of settings: linters and analyzer rules. Most analyzer rules have a corresponding linter. You can remove the linter or change the severity of the analyzer rule. See the official documentation here.
+You can easily turn the rules off or change the severity to warning. I dialed down a couple of rules due to personal preference, but you can see all of these in the [comments](https://github.com/MelbourneDeveloper/austerity/blob/main/lib/analysis_options.yaml) and adjust these for yourself. You have to understand that there are two types of settings: linters and analyzer rules. Most analyzer rules have a corresponding linter. You can remove the linter or change the severity of the analyzer rule. See the official documentation [here](https://dart.dev/guides/language/analysis-options).
 
 ![errors](https://github.com/MelbourneDeveloper/austerity/blob/main/doc/images/config.png) 
 
