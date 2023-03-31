@@ -37,7 +37,9 @@
 - avoid_positional_boolean_parameters
 - depend_on_referenced_packages
 - public_member_api_docs
-
+## 1.0.0
+- First stable release
+- Add a few new errors
 
 
 

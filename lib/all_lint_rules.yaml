@@ -61,7 +61,7 @@ linter:
     # - dangling_library_doc_comments - Unreleased
     # - depend_on_referenced_packages - This one doesn't add much value. If you depend on a package, you also get its subdependencies automatically
     - deprecated_consistency
-    - deprecated_member_use_from_same_package
+    # - deprecated_member_use_from_same_package not recognised
     - diagnostic_describe_all_properties
     - directives_ordering
     - discarded_futures
@@ -76,7 +76,7 @@ linter:
     - hash_and_equals
     - implementation_imports
     # - implicit_call_tearoffs - No doco?
-    - implicit_reopen
+    # - implicit_reopen - not recognised
     - invalid_case_patterns
     - iterable_contains_unrelated_type
     - join_return_with_assignment
@@ -164,11 +164,11 @@ linter:
     - tighten_type_of_initializing_formals
     - type_annotate_public_apis
     - type_init_formals
-    - type_literal_in_constant_pattern
+    # - type_literal_in_constant_pattern - not recognised
     - unawaited_futures
     - unnecessary_await_in_return
     - unnecessary_brace_in_string_interps
-    - unnecessary_breaks
+    # - unnecessary_breaks not recognised
     - unnecessary_const
     - unnecessary_constructor_name
     # - unnecessary_final

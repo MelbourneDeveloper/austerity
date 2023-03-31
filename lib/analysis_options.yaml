@@ -88,7 +88,7 @@ analyzer:
     depend_on_referenced_packages: ignore
     deprecated_consistency: error
     deprecated_member_use: error
-    deprecated_member_use_from_same_package: error
+    # deprecated_member_use_from_same_package: error - Not recognised
     # If you're building a public Flutter package, switch this to error.
     # Otherwise, a warning is probably more appropriate
     diagnostic_describe_all_properties: warning
