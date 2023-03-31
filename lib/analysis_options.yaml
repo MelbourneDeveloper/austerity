@@ -113,6 +113,7 @@ analyzer:
     iterable_contains_unrelated_type: error
     join_return_with_assignment: error
     leading_newlines_in_multiline_strings: error
+    library_annotations: error
     library_names: error
     library_prefixes: error
     library_private_types_in_public_api: error

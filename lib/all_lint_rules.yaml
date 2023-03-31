@@ -124,7 +124,7 @@ linter:
     - prefer_final_fields
     - prefer_final_in_for_each
     - prefer_final_locals
-    - prefer_final_parameters
+    # - prefer_final_parameters - This is too verbose
     - prefer_for_elements_to_map_fromIterable
     - prefer_foreach
     - prefer_function_declarations_over_variables
@@ -171,7 +171,7 @@ linter:
     - unnecessary_breaks
     - unnecessary_const
     - unnecessary_constructor_name
-    - unnecessary_final
+    # - unnecessary_final
     - unnecessary_getters_setters
     - unnecessary_lambdas
     - unnecessary_late
