@@ -190,7 +190,7 @@ analyzer:
     prefer_null_aware_method_calls: error
     prefer_null_aware_operators: error
     # package imports are usually better
-    prefer_relative_imports: ignore
+    #prefer_relative_imports: ignore
     prefer_single_quotes: error
     prefer_spread_collections: error
     prefer_typing_uninitialized_variables: error
