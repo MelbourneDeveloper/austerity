@@ -40,6 +40,23 @@
 ## 1.0.0
 - First stable release
 - Add a few new errors
+## 1.1.0
+- Fixes for Dart 3: removes `implicit-casts` and `implicit-dynamic` because they are not part of the analysis settings anymore
+- Adds: 
+    - collection_methods_unrelated_type
+    - combinators_ordering
+    - dangling_library_doc_comments
+    - deprecated_member_use_from_same_package
+    - implicit_call_tearoffs
+    - implicit_reopen
+    - invalid_case_patterns
+    - matching_super_parameters
+    - no_literal_bool_comparisons
+    - type_literal_in_constant_pattern
+    - unnecessary_breaks
+    - unnecessary_library_directive
+    - unreachable_from_main
+    - use_string_in_part_of_directives
 
 
 
