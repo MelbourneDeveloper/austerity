@@ -6,9 +6,7 @@ analyzer:
   language:
     strict-inference: true
     strict-raw-types: true
-  strong-mode:
-    implicit-casts: false
-    implicit-dynamic: false
+    strict-casts: true
   exclude:
     - "**/*.g.dart"
     - "bin/cache/**"
