@@ -74,17 +74,21 @@ analyzer:
     cascade_invocations: error
     cast_nullable_to_non_nullable: error
     close_sinks: error
+    collection_methods_unrelated_type: error
+    combinators_ordering: error
     comment_references: error
     conditional_uri_does_not_exist: error
     constant_identifier_names: error
     control_flow_in_finally: error
     curly_braces_in_flow_control_structures: error
+    dangling_library_doc_comments: error
     dead_code: error
     # If you depend on a package, you also need to provide a version constraint.
     # Often it becomes easy to specify conflicting ones. It's often best to allow
     # the dependency tree to automatically pick a version.
     depend_on_referenced_packages: ignore
     deprecated_consistency: error
+    deprecated_member_use_from_same_package: error
     deprecated_member_use: error
     # deprecated_member_use_from_same_package: error - Not recognised
     # If you're building a public Flutter package, switch this to error.
@@ -104,6 +108,9 @@ analyzer:
     flutter_style_todos: ignore
     hash_and_equals: error
     implementation_imports: error
+    implicit_call_tearoffs: error
+    implicit_reopen: error
+    invalid_case_patterns: error
     inference_failure_on_function_return_type: error
     invalid_use_of_visible_for_testing_member: error
     invalid_visibility_annotation: error
@@ -118,6 +125,7 @@ analyzer:
     lines_longer_than_80_chars: error
     list_remove_unrelated_type: error
     literal_only_boolean_expressions: error
+    matching_super_parameters: error
     missing_enum_constant_in_switch: error
     missing_whitespace_between_adjacent_strings: error
     must_be_immutable: error
@@ -127,6 +135,7 @@ analyzer:
     no_duplicate_case_values: error
     no_leading_underscores_for_library_prefixes: error
     no_leading_underscores_for_local_identifiers: error
+    no_literal_bool_comparisons: error
     no_logic_in_create_state: error
     no_runtimeType_toString: error
     non_constant_identifier_names: error
@@ -209,9 +218,11 @@ analyzer:
     tighten_type_of_initializing_formals: error
     type_annotate_public_apis: error
     type_init_formals: error
+    type_literal_in_constant_pattern: error
     unawaited_futures: error
     unnecessary_await_in_return: error
     unnecessary_brace_in_string_interps: error
+    unnecessary_breaks: error
     unnecessary_cast: error
     unnecessary_const: error
     unnecessary_constructor_name: error
@@ -220,6 +231,7 @@ analyzer:
     unnecessary_import: error
     unnecessary_lambdas: error
     unnecessary_late: error
+    unnecessary_library_directive: error
     unnecessary_new: error
     unnecessary_non_null_assertion: error
     unnecessary_null_aware_assignments: error
@@ -237,6 +249,7 @@ analyzer:
     unnecessary_this: error
     unnecessary_to_list_in_spreads: error
     unnecessary_type_check: error
+    unreachable_from_main: error
     unrelated_type_equality_checks: error
     unsafe_html: error
     unused_element: error
@@ -258,6 +271,7 @@ analyzer:
     use_rethrow_when_possible: error
     use_setters_to_change_properties: error
     use_string_buffers: error
+    use_string_in_part_of_directives: error
     use_super_parameters: error
     use_test_throws_matchers: error
     use_to_and_as_if_applicable: error
