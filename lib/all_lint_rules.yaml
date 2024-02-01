@@ -62,7 +62,7 @@ linter:
     # - depend_on_referenced_packages - This one doesn't add much value. If you depend on a package, you also get its subdependencies automatically
     - deprecated_consistency
     - deprecated_member_use_from_same_package
-    - diagnostic_describe_all_properties
+    # - diagnostic_describe_all_properties - As much as this is useful, it is too problematic because auto fix goes wild with this
     - directives_ordering
     - discarded_futures
     - do_not_use_environment

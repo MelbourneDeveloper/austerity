@@ -96,7 +96,7 @@ analyzer:
     # deprecated_member_use_from_same_package: error - Not recognised
     # If you're building a public Flutter package, switch this to error.
     # Otherwise, a warning is probably more appropriate
-    diagnostic_describe_all_properties: warning
+    diagnostic_describe_all_properties: ignore #As much as this is useful, it is too problematic because auto fix goes wild with this
     directives_ordering: error
     discarded_futures: error
     do_not_use_environment: error
