@@ -68,6 +68,8 @@ analyzer:
     avoid_void_async: error
     avoid_web_libraries_in_flutter: error
     await_only_futures: error
+    body_might_complete_normally_catch_error: error
+    body_might_complete_normally_nullable: error
     camel_case_extensions: error
     camel_case_types: error
     cancel_subscriptions: error
@@ -83,6 +85,7 @@ analyzer:
     curly_braces_in_flow_control_structures: error
     dangling_library_doc_comments: error
     dead_code: error
+    dead_null_aware_expression: error
     # If you depend on a package, you also need to provide a version constraint.
     # Often it becomes easy to specify conflicting ones. It's often best to allow
     # the dependency tree to automatically pick a version.
@@ -98,6 +101,7 @@ analyzer:
     discarded_futures: error
     do_not_use_environment: error
     duplicate_import: error
+    equal_keys_in_map: error
     empty_catches: error
     empty_constructor_bodies: error
     empty_statements: error
@@ -110,8 +114,15 @@ analyzer:
     implementation_imports: error
     implicit_call_tearoffs: error
     implicit_reopen: error
-    invalid_case_patterns: error
+    inference_failure_on_collection_literal: error
+    inference_failure_on_instance_creation: error
+    inference_failure_on_function_invocation: error
     inference_failure_on_function_return_type: error
+    inference_failure_on_untyped_parameter: error
+    invalid_case_patterns: error
+    invalid_null_aware_operator: error
+    invalid_return_type_for_catch_error: error
+    invalid_use_of_protected_member: error
     invalid_use_of_visible_for_testing_member: error
     invalid_visibility_annotation: error
     invariant_booleans: error
@@ -243,6 +254,7 @@ analyzer:
     unnecessary_overrides: error
     unnecessary_parenthesis: error
     unnecessary_raw_strings: error
+    unnecessary_set_literal: error
     unnecessary_statements: error
     unnecessary_string_escapes: error
     unnecessary_string_interpolations: error
@@ -250,6 +262,7 @@ analyzer:
     unnecessary_to_list_in_spreads: error
     unnecessary_type_check: error
     unreachable_from_main: error
+    unreachable_switch_case: error
     unrelated_type_equality_checks: error
     unsafe_html: error
     unused_element: error
