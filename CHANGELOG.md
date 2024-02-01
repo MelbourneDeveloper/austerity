@@ -57,6 +57,9 @@
     - unnecessary_library_directive
     - unreachable_from_main
     - use_string_in_part_of_directives
+## 1.2.0
+    - Removes `diagnostic_describe_all_properties` because this is too problematic with auto fixes
+    - Adds a bunch of rules. You can see the changes if you look at the git history
 
 
 

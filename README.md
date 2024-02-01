@@ -6,28 +6,7 @@ This package attempts to use every Dart and Flutter code rule available that doe
 This is what you will see when you do naughty things
 ![errors](https://github.com/MelbourneDeveloper/austerity/blob/main/doc/images/errors.png) 
 
-This library is pretty stable now. This will probably be the last beta version. 
-
-## Dart 3 Upgrade!
-
-austerity 1.1 removes options that were deprecated in Dart 3 and adds all these new lints!
-
-Check it out! It's now even more austere!
-
-- collection_methods_unrelated_type
-- combinators_ordering
-- dangling_library_doc_comments
-- deprecated_member_use_from_same_package
-- implicit_call_tearoffs
-- implicit_reopen
-- invalid_case_patterns
-- matching_super_parameters
-- no_literal_bool_comparisons
-- type_literal_in_constant_pattern
-- unnecessary_breaks
-- unnecessary_library_directive
-- unreachable_from_main
-- use_string_in_part_of_directives
+This library takes advantage of almost all the rules in Dart 3, but feel free to log any missing rules.
 
 ## Use the package
 - Install the package in the `pubspec.yaml`
