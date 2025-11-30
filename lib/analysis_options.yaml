@@ -23,6 +23,7 @@ analyzer:
     #always_specify_types: false
     always_use_package_imports: error
     annotate_overrides: error
+    annotate_redeclares: error
     avoid_annotating_with_dynamic: error
     avoid_bool_literals_in_conditional_expressions: error
     avoid_catches_without_on_clauses: error
@@ -36,6 +37,7 @@ analyzer:
     avoid_field_initializers_in_const_classes: error
     avoid_final_parameters: error
     avoid_function_literals_in_foreach_calls: error
+    avoid_futureor_void: error
     avoid_implementing_value_types: error
     avoid_init_to_null: error
     avoid_js_rounded_ints: error
@@ -100,6 +102,7 @@ analyzer:
     directives_ordering: error
     discarded_futures: error
     do_not_use_environment: error
+    document_ignores: error
     duplicate_import: error
     equal_keys_in_map: error
     empty_catches: error
@@ -121,6 +124,7 @@ analyzer:
     inference_failure_on_untyped_parameter: error
     invalid_case_patterns: error
     invalid_null_aware_operator: error
+    invalid_runtime_check_with_js_interop_types: error
     invalid_return_type_for_catch_error: error
     invalid_use_of_protected_member: error
     invalid_use_of_visible_for_testing_member: error
@@ -137,6 +141,7 @@ analyzer:
     list_remove_unrelated_type: error
     literal_only_boolean_expressions: error
     matching_super_parameters: error
+    missing_code_block_language_in_doc_comment: error
     missing_enum_constant_in_switch: error
     missing_whitespace_between_adjacent_strings: error
     must_be_immutable: error
@@ -149,6 +154,8 @@ analyzer:
     no_literal_bool_comparisons: error
     no_logic_in_create_state: error
     no_runtimeType_toString: error
+    no_self_assignments: error
+    no_wildcard_variable_uses: error
     non_constant_identifier_names: error
     noop_primitive_operations: error
     null_argument_to_non_null_type: error
@@ -212,6 +219,7 @@ analyzer:
     # If you see too many of these, try prefixing more members with _
     public_member_api_docs: warning
     recursive_getters: error
+    remove_deprecations_in_breaking_versions: error
     require_trailing_commas: error
     secure_pubspec_urls: error
     sdk_version_constructor_tearoffs: error
@@ -223,6 +231,8 @@ analyzer:
     sort_pub_dependencies: error
     sort_unnamed_constructors_first: error
     strict_raw_type: error
+    strict_top_level_inference: error
+    switch_on_type: error
     subtype_of_sealed_class: error
     test_types_in_equals: error
     throw_in_finally: error
@@ -231,6 +241,8 @@ analyzer:
     type_init_formals: error
     type_literal_in_constant_pattern: error
     unawaited_futures: error
+    unintended_html_in_doc_comment: error
+    unnecessary_async: error
     unnecessary_await_in_return: error
     unnecessary_brace_in_string_interps: error
     unnecessary_breaks: error
@@ -239,10 +251,12 @@ analyzer:
     unnecessary_constructor_name: error
     unnecessary_final: error
     unnecessary_getters_setters: error
+    unnecessary_ignore: error
     unnecessary_import: error
     unnecessary_lambdas: error
     unnecessary_late: error
     unnecessary_library_directive: error
+    unnecessary_library_name: error
     unnecessary_new: error
     unnecessary_non_null_assertion: error
     unnecessary_null_aware_assignments: error
@@ -261,10 +275,13 @@ analyzer:
     unnecessary_this: error
     unnecessary_to_list_in_spreads: error
     unnecessary_type_check: error
+    unnecessary_unawaited: error
+    unnecessary_underscores: error
     unreachable_from_main: error
     unreachable_switch_case: error
     unrelated_type_equality_checks: error
     unsafe_html: error
+    unsafe_variance: error
     unused_element: error
     unused_field: error
     unused_import: error
@@ -280,6 +297,7 @@ analyzer:
     use_key_in_widget_constructors: error
     use_late_for_private_fields_and_variables: error
     use_named_constants: error
+    use_null_aware_elements: error
     use_raw_strings: error
     use_rethrow_when_possible: error
     use_setters_to_change_properties: error
@@ -288,5 +306,6 @@ analyzer:
     use_super_parameters: error
     use_test_throws_matchers: error
     use_to_and_as_if_applicable: error
+    use_truncating_division: error
     valid_regexps: error
     void_checks: error
