@@ -58,8 +58,29 @@
     - unreachable_from_main
     - use_string_in_part_of_directives
 ## 1.2.0
-    - Removes `diagnostic_describe_all_properties` because this is too problematic with auto fixes
-    - Adds a bunch of rules. You can see the changes if you look at the git history
+- Removes `diagnostic_describe_all_properties` because this is too problematic with auto fixes
+- Adds a bunch of rules. You can see the changes if you look at the git history
 
-
-
+## 1.3.0
+- Adds all new Dart 3.10 lint rules:
+  - `annotate_redeclares`
+  - `avoid_futureor_void`
+  - `document_ignores`
+  - `invalid_runtime_check_with_js_interop_types`
+  - `missing_code_block_language_in_doc_comment`
+  - `no_self_assignments`
+  - `no_wildcard_variable_uses`
+  - `remove_deprecations_in_breaking_versions`
+  - `strict_top_level_inference`
+  - `switch_on_type`
+  - `unintended_html_in_doc_comment`
+  - `unnecessary_async`
+  - `unnecessary_ignore`
+  - `unnecessary_library_name`
+  - `unnecessary_unawaited`
+  - `unnecessary_underscores`
+  - `unsafe_variance`
+  - `use_null_aware_elements`
+  - `use_truncating_division`
+- Deprecates `iterable_contains_unrelated_type` and `list_remove_unrelated_type` (use `collection_methods_unrelated_type`)
+- Fixes: removes `unnecessary_final` which conflicted with `prefer_final_locals`

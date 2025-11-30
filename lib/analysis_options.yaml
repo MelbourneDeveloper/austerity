@@ -249,7 +249,7 @@ analyzer:
     unnecessary_cast: error
     unnecessary_const: error
     unnecessary_constructor_name: error
-    unnecessary_final: error
+    # unnecessary_final - Conflicts with prefer_final_locals, prefer_final_in_for_each, prefer_final_fields
     unnecessary_getters_setters: error
     unnecessary_ignore: error
     unnecessary_import: error
